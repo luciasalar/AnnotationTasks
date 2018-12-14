@@ -1,56 +1,82 @@
-#Cognitive Distortion Annotation Guideline 
+# VALENCE ANNOTATION GUIDELINE
+
 
 Lucia Chen
 
-## Definitions
+## Definitions 
+
+**PRIMARY TARGET OF OPINION (PTO)**: This is the entity towards which we can determine the speaker's attitude. The entity can be a person, situation or event. *There could be more than one PTOs in one sentence or one post.*
+
+**VALENCE** refers to the degree of positivity or negativity of the post as it relates to the primary target of opinion. 
 
 ## The Task  
 
+In this task, you need to identify the valence of the post. Valence can be positive, negative, mixed (both positivity and negativity) or neutral. 
 
-In this task, you are given posts containing negative valence only. Label whether a post shows signs of cognitive distortion. If you identify a post might indicate cognitive distortion but you are unsure which category it belongs to, put down all of those you think are most suitable to the post. For post you are unsure, select unsure in the second box.
+If the post indicates positive valence only, choose "Positive". 
 
-*Cognitive distortions are systematic, a person might think in the same pattern across situations. However, social media text does not reveal all the thoughts of a person, we are not able to identify if there is a pattern exist most of the time. In this case, we can only flag posts that might reflect cognitive distortion.* 
+If the post indicates negative valence only, choose "Negative".
 
-*Sometimes it's difficult for us to judge whether the statement is true to the reality based on one Facebook post only. You may read through nearby posts to find contextual information. If contextual information can't be identified and if the author did not provide evidence in the text, we flag the post as cognitive distortion.*
+If the post indicates both positive and negative valence, choose "Mixed".
 
-	For example:
-	I'm so fat, I shouldn't eat so much.
-	I know she doesn't like me.
+If the post does not indicate any valence, choose "Neutral".
 
-Remember: The goal of this task is to identify signs of cognitive distortion. The above text may or may not true to the reality, we should annotate them as cognitive distortion, but also select *unsure*.
+If you cannot understand the post because the languge is confusing or there's a large trunk of foreign language that you don't understand, choose "Cannot understand the post".
 
 
-Make sure you read all the instructions. Pay attention to the sentence highlighted. If you have doubts in labeling, read the examples carefully or contact lushi.chen@ed.ac.uk
+Valence is determined as follows: 
 
-## Checklist of Cognitive Distortions:
-					
+* If the author expresses positive or negative attitudes towards the primary target of opinion, or positive / negative emotions, then the author's attitude / emotions correspond to the valence of the post. Examples:
 
-* **Jumping to Conclusions**. Draw negative conclusion without evidence to support that conclusion.
+  * Positive: I am *very proud* / I *love* going for a walk in the rain. / I had pasta today ;) 
+  * Negative: I am *so sad*. / I *hate* waking up so early this morning. / I had pasta today :(
+  * Mixed: I am *so proud* to start a new chapter in my life, but *really sad* to leave my hometown. 
+  * Mixed: I like the movie, but the conversation between Tom and Jack makes me feel a bit sad. 
+  * Neutral: I had pasta today.
 
-   
-	Example: 
-	- She’s not answering my phone, she must be cheating on me.
-	
-					
-* **Catastrophizing**. One believes the worst situation will occur.
+* If the author does not express any positive or negative attitude using obvious valenced words (e.g. adjectives, emoji, verbs), but the primary target of opinion has strong associations with positive or negative valence. These words usually have valence as part of their meanings, for example, *die*, *nuisance*, *disgusting* (negative) or *cherish*, *blessing*, *wonderful* (positive).  In that case, use these associations to determine valence. Consider the valence that the primary target of opinion has for most people in Western culture. 
 
-    
-    Example: 
- 	- I better not try because I might fail, and that would be awful.
- 	
+  Don't over interpret the valence of the primary target of opinion, just go with your primary intuition. If you need a second thought to identify whether it might be positive or negative, or when there are multiple possible interpretations, label it as neutral.
 
-*Difference between Jumping to Conclusions and Catastrophizing: 
-Catastrophizing thought often involves Jumping to Conclusions, catastrophizing magnify the importance of minor mistakes.*
-	
-	
-*  **Comparison** One beliefs that he/she is worse than others because one tend to compare himself/herself with others
+  + If the primary target of opinion is usually associated with a lack of reward, threat, fear, anxiety, loss, anger, annoyance, or  other negative emotions, label the post as negative. Examples:
 
-   
-	Example: 
-	- I wish I were as comfortable with women as my brother is.
-	
+      * I did not win the race. (no reward)
+      * My cat died. (death has strong negative associations)
+      * When will politicians learn to govern? (rhetorical question indicates frustration) 
+      * The wildfires have displaced thousands of people. (losing one's home is associated with negative emotions)
 
-*  **Dichotomous/Black-and-White Thinking** The tendency to view all experiences as fitting into one of two categories (e.g., positive or negative; good or bad).
+  + If the primary target of opinion is usually associated with a reward, success, accomplishments, or other positive emotions, label the post as positive. Examples: 
+
+     * I finished all the assignments on time. (accomplishment)
+     * I got an A on my exam. (reward)
+     * My grandmother gave me a pretty necklace. (reward, indication of positive assessment of necklace)
+     * We need a diplomat like him. (We can infer that the speaker has a positive attitude towards the person.)
+
+As you have seen, valence can be represented by any word form or phrase. This includes nouns, adjectives, verbs, adverbs, and even emoticons. 
+
+## What to do if you are not sure about the valence? 
+
+If there are any posts where you are not sure about the correct valence, go with the option that makes the most sense to you, copy and paste the post into a separate document, and describe the reasons why you found your decision difficult. This is particularly important for the first 60 posts you label. 
+
+## What if the post is not interpretable?
+Sometimes the posts might contain one or two foreign words, but that might not affect your interpretation of the post if there's enough context information. However, sometimes the posts contain a trunk of foreign language that affects your interpretation, choose *Cannot understand the post*.
+
+
+## References:
+
+Brendl, C. M., & Higgins, E. T. (1996). Principles of judging valence: What makes events positive or negative?. In Advances in experimental social psychology (Vol. 28, pp. 95-160). Academic Press.
+
+Mohammad, S. (2016). A practical guide to sentiment annotation: Challenges and solutions. In Proceedings of the 7th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis (pp. 174-179).
+
+## FAQ: 
+
+If you have any questions or doubts about any of the posts, please email them to lushi.chen@ed.ac.uk and maria.wolters@ed.ac.uk. Make sure to include the full post. 
+
+1. I was not sure how to annotate this one as there are two things the post mentions – the film and Israel-Palestine conflict – but the primary target of the opinion is the film. 
+
+Answer: When there are two or more potential primary targets of opinion in a post, and the author expresses different attitudes towards both targets, please choose *Mixed*. 
+
+
 
 	
 	Example:
